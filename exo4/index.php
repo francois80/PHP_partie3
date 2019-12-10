@@ -15,7 +15,7 @@ while($compteur <= 10){
   ?>
   <p>$compteur = <?= $compteur ?></p>
   <?php
-  $compteur = $compteur + ($compteur / 2);
+  $compteur += ($compteur / 2);
 }
 ?>
 </body>
